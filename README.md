@@ -1,24 +1,30 @@
-# Password Generator
+# Secure Password Generator
 
-A Python-based Password Generator that creates strong and secure random passwords using a combination of uppercase letters, lowercase letters, numbers, and special characters.
+A Python-based cybersecurity project that generates cryptographically secure passwords and evaluates their strength using industry-recommended password security practices.
 
 ## Project Overview
 
-This project was developed to understand password security concepts and secure password generation techniques. It allows users to generate random passwords of customizable length, helping improve account security and reduce the risk of weak passwords.
+This project was developed to strengthen my understanding of cybersecurity fundamentals, secure password generation, and Python programming.
+
+The application generates strong random passwords using Python's `secrets` module, validates user input, and evaluates password strength based on length, character diversity, and complexity requirements.
 
 ## Features
 
-- Generate secure random passwords
+- Generate cryptographically secure passwords
 - User-defined password length
-- Includes uppercase and lowercase letters
-- Includes numbers and special characters
-- Creates strong and unpredictable passwords
-- Simple command-line interface
+- Input validation and error handling
+- Includes uppercase letters
+- Includes lowercase letters
+- Includes numbers
+- Includes special characters
+- Password strength evaluation
+- Command-line interface
+- Follows cybersecurity best practices
 
 ## Technologies Used
 
 - Python
-- Random Module
+- Secrets Module
 - String Module
 
 ## Skills Demonstrated
@@ -26,24 +32,36 @@ This project was developed to understand password security concepts and secure p
 - Python Programming
 - Cybersecurity Fundamentals
 - Secure Password Generation
-- User Input Handling
-- Problem Solving
+- Input Validation
+- Error Handling
+- Password Security Concepts
+- Software Development Best Practices
+
+## Project Structure
+
+```text
+Password-Generator/
+│
+├── password_generator.py
+├── README.md
+└── screenshot.png
+```
 
 ## How to Run
 
-1. Clone the repository
+### Clone the Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Vicky-the-learner/Password-Generator.git
 ```
 
-1. Navigate to the project folder
+### Navigate to the Project Directory
 
 ```bash
 cd Password-Generator
 ```
 
-1. Run the program
+### Run the Program
 
 ```bash
 python password_generator.py
@@ -52,20 +70,47 @@ python password_generator.py
 ## Example Output
 
 ```text
-Enter password length: 12
+========================================
+      Secure Password Generator
+========================================
+
+Enter password length (minimum 8): 12
 
 Generated Password:
 A@7kP#2mQ!9x
+
+Password Strength: Strong
 ```
 
-## Future Improvements
+## Security Improvements Implemented
 
-- Password strength checker
+- Uses Python's `secrets` module instead of `random`
+- Ensures password complexity requirements
+- Prevents weak passwords through minimum length validation
+- Evaluates password strength based on multiple security factors
+
+## Future Enhancements
+
 - GUI version using Tkinter
+- Password history tracking
 - Password manager integration
-- Export generated passwords securely
+- Password entropy calculation
+- Export passwords securely
+- Breached password detection
+
+## Learning Outcomes
+
+Through this project, I gained hands-on experience with:
+
+- Secure coding practices
+- Password security concepts
+- Python standard libraries
+- Input validation techniques
+- Writing maintainable code
 
 ## Author
 
-Vignesh
-B.E. CSE (Cybersecurity)
+**Vicky**
+B.E. Computer Science and Engineering (Cybersecurity)
+
+GitHub: <https://github.com/Vicky-the-learner>
