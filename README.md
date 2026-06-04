@@ -39,11 +39,13 @@ The application generates strong random passwords using Python's `secrets` modul
 
 ## Project Structure
 
+```text
 Password-Generator/
 │
 ├── password_generator.py
 ├── README.md
 └── screenshot.png
+```
 
 ## How to Run
 
